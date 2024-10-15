@@ -19,3 +19,15 @@ Sample Output:
 The even list [2, 6]
 The odd list [1, 3, 5]
 """
+size = int(input())
+even_list = []
+odd_list = []
+for _ in range(size):
+    element = int(input()) 
+    if element % 2 == 0:
+        even_list.append(element)  
+    else:
+        odd_list.append(element)    
+
+print(f"The even list {even_list}")
+print(f"The odd list {odd_list}")
