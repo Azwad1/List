@@ -1,5 +1,5 @@
 """
-)Write a Python Program to find the largest number in a list
+Write a Python Program to find the largest number in a list
 Input & Output Format:
 Input consists of one list and one integer.
 First input consists of a size of a list.
@@ -15,3 +15,10 @@ Sample Input:
 Sample Output:
 6
 """
+size = int(input())
+elements = []
+for _ in range(size):
+    element = int(input()) 
+    elements.append(element)  
+largest_element = max(elements)
+print(largest_element)
