@@ -17,3 +17,10 @@ Sample Input:
 Sample Output:
 11
 """
+n = int(input())
+elements = []
+for _ in range(n):
+    element = int(input())  
+    elements.append(element)  
+total_sum = sum(elements)
+print(total_sum)
