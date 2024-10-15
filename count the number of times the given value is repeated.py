@@ -11,3 +11,7 @@ Sample Input:
 Sample Output:
 3
 """
+elements = input().split()  
+value_to_count = input().strip()  
+count = elements.count(value_to_count)
+print(count)
