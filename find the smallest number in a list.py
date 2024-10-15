@@ -16,3 +16,10 @@ Sample Output:
 1
 
 """
+size = int(input())
+elements = []
+for _ in range(size):
+    element = int(input()) 
+    elements.append(element)  
+smallest_element = min(elements)
+print(smallest_element)
