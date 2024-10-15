@@ -15,3 +15,9 @@ Sample Input
 Output
 1 2 3 4
 """
+size = int(input())
+elements = []
+for _ in range(size):
+    element = int(input())  
+    elements.append(element) 
+print(" ".join(map(str, elements)))
